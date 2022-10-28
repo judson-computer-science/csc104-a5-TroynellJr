@@ -1,0 +1,21 @@
+#! /bin/bash                                                                    
+#Assignment 5                                                                   
+# Troynell Rivers                                                                
+# October 25 2022                                                               
+# Linux Programing                                                              
+#                                                                               
+echo `date`
+echo $SHELL
+echo hi > file
+cat file
+cat >  alice.txt
+cat alice.txt
+cat >> alice.txt
+cat alice.txt
+ls -FR
+ls | wc -w
+head -4 /etc/passwd
+cat /etc/passwd/
+who | tee who.capture |sort
+cat who.capture
+cho the date today is `date`
